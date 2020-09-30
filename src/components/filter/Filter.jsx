@@ -9,9 +9,10 @@ const Filter = (props) => {
     };
 
     return (<>
-            <input className='search-input' placeholder='Search' value={searchText?.toUpperCase()}
+            <input className='search-input' placeholder='Search'
+                   value={searchText?.toUpperCase()}
                    onChange={handleChange}/>
-            <hr width="1" size="60" className='divider' />
+            <hr width="1" size="60" className='divider'/>
             <button className='add' onClick={handleClick}>+</button>
         </>
     )

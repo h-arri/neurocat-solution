@@ -10,7 +10,7 @@ const List = (props) => {
             items.map((item, index) => {
                 classes = index < items.length - 1 ? 'list-item' : 'list-item hide-divider';
 
-                return <li key={item} className={classes}>{item.toUpperCase()}</li>;
+                return <li data-testid="item" key={item} className={classes}>{item.toUpperCase()}</li>;
             })
             : <li className='list-item hide-divider'>No data!</li>}
     </ul>);

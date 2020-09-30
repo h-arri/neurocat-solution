@@ -33,11 +33,11 @@ const App = () => {
 
     return (
         <div className="app">
-            <header className="app-header">
-                <Filter handleClick={handleAdd} handleSearch={handleSearch} searchText={searchText}/>
+            <header className='app-header'>
+                <Filter data-testid="filter" handleClick={handleAdd} handleSearch={handleSearch} searchText={searchText}/>
             </header>
             <article className='content'>
-                <List items={filteredItems}/>
+                <List data-testid="list" items={filteredItems}/>
             </article>
         </div>
     );
