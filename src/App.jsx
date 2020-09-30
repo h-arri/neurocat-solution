@@ -11,7 +11,7 @@ const App = () => {
     const handleSearch = (inputText) => {
         setSearchText(inputText);
         if (inputText !== '') {
-            setFilteredItems([...items?.filter(item => item.includes(inputText  ))]);
+            setFilteredItems([...items?.filter(item => item.includes(inputText))]);
         } else {
             setFilteredItems(items);
         }

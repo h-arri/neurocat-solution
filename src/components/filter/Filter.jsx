@@ -5,7 +5,7 @@ const Filter = (props) => {
     const { searchText, handleSearch, handleClick } = props;
 
     const handleChange = (e) => {
-        handleSearch(e.target.value.trim());
+        handleSearch(e.target.value.trim().toLowerCase());
     };
 
     return (<>
