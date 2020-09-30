@@ -1,0 +1,36 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    padding: 2%;
+    background: #fff;
+    border: solid 1px #323c3b;
+}
+
+.list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;
+    height: 6vw;
+    font-size: 1.5vw;
+    color: #323c3b;
+    border-bottom: solid 1px #323c3b;
+    text-align: initial;
+    padding-left: 2%;
+}
+
+.list-item:hover {
+    background-color: #323c3b;
+    color: #ffffff;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.hide-divider {
+    border: none;
+}
+
+.no-data {
+    justify-content: center;
+}
