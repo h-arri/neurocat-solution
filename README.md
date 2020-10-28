@@ -1,4 +1,4 @@
-# neurocat-solution
+# search-add-on-list
 
 ## Steps to run the application
 
